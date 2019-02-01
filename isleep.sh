@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ ! ${1} =~ [0-9] || ${1} -lt 1 ]]; then
-    echo -e "\033[1;31mWrong argument type \"${1}\"\nUse only numbers!\033[0m"
+    echo -e "\033[1;31mWrong argument typed: \"${1}\"\nUse figure only!\033[0m"
     exit 9
 fi;
 
