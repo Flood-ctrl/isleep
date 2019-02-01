@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [[ ! ${1} =~ [0-9] || ${1} -lt 1 ]]; then
     echo -e "\033[1;31mWrong argument type \"${1}\"\nUse only numbers!\033[0m"
